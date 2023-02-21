@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/650fb94032.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="result">
+      <div>
+        <i class="fa-regular fa-x"></i> : <span class="resultX">0</span>
+      </div>
+      <div class="win">Kółko-Krzyżyk</div>
+      <div>
+        <i class="fa-regular fa-circle"></i> : <span class="resultO">0</span>
+      </div>
+    </header>
+    <main>
+      <div class="board">
+        <div class="box fa-regular" data-row="0" data-column="0"></div>
+        <div class="box fa-regular" data-row="0" data-column="1"></div>
+        <div class="box fa-regular" data-row="0" data-column="2"></div>
+        <div class="box fa-regular" data-row="1" data-column="0"></div>
+        <div class="box fa-regular" data-row="1" data-column="1"></div>
+        <div class="box fa-regular" data-row="1" data-column="2"></div>
+        <div class="box fa-regular" data-row="2" data-column="0"></div>
+        <div class="box fa-regular" data-row="2" data-column="1"></div>
+        <div class="box fa-regular" data-row="2" data-column="2"></div>
+      </div>
+      <div class="group-btr">
+        <button class="btr player active">PvP</button
+        ><button class="btr reset">Reset</button
+        ><button class="btr ai">AI</button>
+      </div>
+    </main>
+    <footer>Runda:&nbsp<span class="tura">0</span></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
